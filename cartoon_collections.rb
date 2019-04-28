@@ -1,12 +1,10 @@
 def roll_call_dwarves(dwarves)
-  %w(dwarves).each_with_index {|dwarf, i|
-    puts i + dwarf
+  %w(cat dog wombat).each_with_index { |item, index|
+    hash[item] = index
   }
 end
 
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
+
 
 def summon_captain_planet# code an argument here
   # Your code here

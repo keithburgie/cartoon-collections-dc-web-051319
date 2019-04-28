@@ -23,4 +23,4 @@ def find_the_cheese(menu)
     food.include?(cheese_types)
   end
 end
-find_the
+find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])

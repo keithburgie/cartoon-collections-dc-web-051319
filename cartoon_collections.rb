@@ -19,7 +19,7 @@ end
 def find_the_cheese(menu)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  menu.any? do |food|
+  menu.select do |food|
     cheese_types.include?(food)
     return food
   end

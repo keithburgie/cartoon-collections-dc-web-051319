@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
-  %w(dwarves).each_with_index |dwarf, i|
-    puts "#{i} #{dwarf}"
-  end
+  %w(dwarves).each_with_index {|dwarf, i|
+    puts i + dwarf
+  }
 end
 
 %w(cat dog wombat).each_with_index { |item, index|

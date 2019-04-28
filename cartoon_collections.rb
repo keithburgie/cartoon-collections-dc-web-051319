@@ -4,6 +4,10 @@ def roll_call_dwarves(dwarves)
   end
 end
 
+%w(cat dog wombat).each_with_index { |item, index|
+  hash[item] = index
+}
+
 def summon_captain_planet# code an argument here
   # Your code here
 end
